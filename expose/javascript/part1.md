@@ -8,4 +8,6 @@ Question 4:values added: 20
 
 Question 5: ERROR : Result was declared with let inside the if block, so it is block-scoped and cannot be accessed outside of the if statement.
 
-Question 6:
+Question 6: The code returns an error before line 9 is executed, so nothing is printed. The error is because result was declared with const and cannot be reassigned.
+
+Question 7: Nothing is printed at line 13 because the program already stopped execution due to the error at line 7.
