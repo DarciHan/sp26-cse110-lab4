@@ -54,6 +54,7 @@ Each discounted value is added to the discounted array and the final array is re
 **DATA TYPES**
 
 Question 12 
+
 A. student.name
 
 B. student['Grad Year']
@@ -63,3 +64,11 @@ C. student.greeting()
 D. student['Favorite Teacher'].name
 
 E. student.courseLoad[0]
+
+**Basic Operators & Type Conversion**
+
+Question 13 
+
+
+
+
