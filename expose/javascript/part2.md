@@ -47,5 +47,8 @@ Question 10
 Line 12 prints 3. The variable length is declared using const outside the loop and is assigned the value of prices.length, which is 3. const is block-scoped and declared in the function scope, thus it remains accessible at line 12. Therefore, logging length prints 3 and no error occurs.
 
 Question 11
+
 The function returns [50, 100, 150]. The loop iterates through each element in the prices array and applies the discount by multiplying each value by (1 - 0.5).
 Each discounted value is added to the discounted array and the final array is returned. All variables are declared and called correctly.
+
+**DATA TYPES**
