@@ -52,3 +52,14 @@ The function returns [50, 100, 150]. The loop iterates through each element in t
 Each discounted value is added to the discounted array and the final array is returned. All variables are declared and called correctly.
 
 **DATA TYPES**
+
+Question 12 
+A. student.name
+
+B. student['Grad Year']
+
+C. student.greeting()
+
+D. student['Favorite Teacher'].name
+
+E. student.courseLoad[0]
