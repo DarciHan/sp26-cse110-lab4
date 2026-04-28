@@ -67,7 +67,60 @@ E. student.courseLoad[0]
 
 **Basic Operators & Type Conversion**
 
-Question 13 
+Question 13
+Arithmetic
+
+A. '3' + 2 = '32'  
+Explanation: Since one of them is a string, JavaScript just sticks them together.
+
+B. '3' - 2 = 1  
+Explanation: The minus sign makes JavaScript turn '3' into a number first.
+
+C. 3 + null = 3  
+Explanation: null basically acts like 0 here.
+
+D. '3' + null = '3null'  
+Explanation: Because there is a string, JavaScript combines them into one string.
+
+E. true + 3 = 4  
+Explanation: true acts like 1, so it becomes 1 + 3.
+
+F. false + null = 0  
+Explanation: false is 0 and null is also 0.
+
+G. '3' + undefined = '3undefined'  
+Explanation: JavaScript turns undefined into text and adds it to the string.
+
+H. '3' - undefined = NaN  
+Explanation: JavaScript tries to do math, but undefined does not work as a number.
+
+Question 14
+Comparison
+
+A. '2' > 1 = true  
+Explanation: '2' turns into 2, and 2 is bigger than 1.
+
+B. '2' < '12' = false  
+Explanation: Since both are strings, JavaScript compares them like text, not numbers.
+
+C. 2 == '2' = true  
+Explanation: == allows JavaScript to convert the string so the values match.
+
+D. 2 === '2' = false  
+Explanation: === checks the type too, and one is a number while the other is a string.
+
+E. true == 2 = false  
+Explanation: true becomes 1, and 1 is not equal to 2.
+
+F. true === Boolean(2) = true  
+Explanation: Boolean(2) becomes true, so both sides are exactly true.
+
+Question 15
+Difference between == and ===
+
+== checks if two values are the same after JavaScript converts them if needed.
+
+=== checks if two values are the same without converting them, so the value and the type both have to match.
 
 
 
