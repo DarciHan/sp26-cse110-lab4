@@ -122,6 +122,13 @@ Difference between == and ===
 
 === checks if two values are the same without converting them, so the value and the type both have to match.
 
+Question 17
+
+
+Result: [2, 4, 6]
+
+Explanation: The function goes through each number in the array and applies the doSomething function, which multiplies each number by 2. So 1 becomes 2, 2 becomes 4, and 3 becomes 6.
+
 
 
 
