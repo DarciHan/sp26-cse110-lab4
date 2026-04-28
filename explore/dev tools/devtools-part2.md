@@ -5,6 +5,10 @@ The bug was that num1 and num2 were being read as strings from the input fields,
 Question 2 
 
 function calculateSum(num1, num2) {
+
     let result = Number(num1) + Number(num2);
+    
     return result;
+    
 }
+
