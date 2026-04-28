@@ -134,8 +134,11 @@ Question 19
 
 Output:
 1
+
 4
+
 3
+
 2
 
 Explanation: 1 and 4 run immediately. The setTimeout with 0 delay runs after the main code finishes, so 3 comes next. The setTimeout with 1000 delay runs last, so 2 is printed after 1 second.
